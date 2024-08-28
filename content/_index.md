@@ -1,5 +1,4 @@
 ---
-# Leave the homepage title empty to use the site title
 title: rEDtech
 date: 2024-9-28
 type: landing
@@ -10,64 +9,11 @@ sections:
       title: Centre for Responsible Educational Technology
       text: Department of Applied IT, University of Gothenburg
   
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
-
   - block: markdown
     content:
       title:
       subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
----
+      text:
+The use of information technology has far-reaching consequences for how learning is made possible, education is conducted, and how new knowledge is developed in society. rEDtech develops knowledge about how information technology changes the conditions for how people learn, participate in education, and generate new knowledge in individual, organizational, and societal contexts. This field encompasses the design, use, and conditions for IT-supported learning, incorporating critical perspectives to understand its impacts thoroughly, including the consequences of the development and use of AI-technology. 
+
+By connecting research with educational activities, rEDtech ensures that insights gained are directly applicable to educational practices. Examples of contexts in which this research is applied include higher education, expertise development, and lifelong learning, encompassing training and professional development. This dynamic interplay between research and practice ensures that the field remains responsive to societal needs and contributes meaningfully to the development of knowledge and educational practices. 
