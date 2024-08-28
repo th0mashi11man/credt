@@ -1,20 +1,14 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: rEDtech
 date: 2024-9-28
 type: landing
 
 sections:
   - block: hero
     content:
-      title: |
-        rEDtech
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        Centre for Responsible Educational Technology
+      title: Centre for Responsible Educational Technology
+      text: Department of Applied IT, University of Gothenburg
   
   - block: collection
     content:
